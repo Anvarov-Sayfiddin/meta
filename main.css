@@ -1,0 +1,173 @@
+*{
+  box-sizing: border-box;
+}
+  
+body{
+  margin: 0;
+}
+  
+  
+img{
+  display: block;
+}
+  
+.container{
+  width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.site-header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color:#282829;
+}
+  
+.site-header-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  
+  
+  .sitenav-list {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+  
+.sitenav-link {
+  margin-right: 30px;
+  font-size: 18px;
+  color: #fff;
+  text-decoration: none;
+}
+  
+.sitenav-last-link{
+  margin-right: 0;
+}
+
+.header-theme{
+  margin-bottom: 50px;
+  padding: 114px 348px 114px 349px;
+  border-radius: 20px;
+}
+
+.first-section {
+  padding-bottom: 75px;
+}
+
+.theme{
+  font-size: 88px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0)
+}
+
+.first-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 0;
+}
+
+.first-section-li{
+  display: inline-block;
+  width: 393px;
+  margin-top: 0;
+  margin-right: 30px;
+  margin-bottom: 60px;
+  padding: 0;
+  list-style: none;
+  font-size: 16px;
+}
+
+.last-section-li{
+  margin-right: 0;
+}
+
+.second-section {
+  padding-bottom: 75px;
+}
+
+.wrapper-time {
+  display: block;
+  text-align: center;
+  padding-top: 43px;
+  font-size: 18px;
+}
+
+.last-section-theme {
+  text-align: center;
+}
+
+.last-section-box {
+  width: 1098px;
+  margin: 0 auto;
+}
+
+.last-section-box-text {
+  font-size: 18px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.site-footer {
+  background-color: #282829;
+}
+.footer-box {
+  padding-top: 81px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  width: 571px;
+  text-align: center;
+}
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer-item {
+  list-style: none;
+  padding-bottom: 29px;
+}
+.footer-item_link {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+.last-footer-box {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-right: 26px;
+}
+.footer-link_last {
+  text-decoration: none;
+  margin-right: px;
+}
+.footer-end {
+  padding-top: 29px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: 400;
+}
